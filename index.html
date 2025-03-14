@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Flexbox</title>
+    <style>
+        * {
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            border: 1px solid #c7c5c5;
+            height: 35rem;
+            box-shadow: .5rem 5.rem .3rem .01rem #c7c5c5;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            aling-content: center;
+        }
+
+        .item{
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            padding: 1rem;
+            margin: .5rem;
+            width: 5rem;
+            height: 5rem;
+            border-radius: .5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item 01</div>
+        <div class="item">Item 02</div>
+        <div class="item">Item 03</div>
+    </div>
+</body>
+</html>
